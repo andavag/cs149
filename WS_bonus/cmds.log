@@ -1,0 +1,48 @@
+  208  cd CS149
+  209  mkdir WB
+  210  cd WB
+  211  git init
+  212  touch newfile.txt
+  213  ls
+  214  git status
+  215  git add newfile.txt
+  216  git status
+  217  git commit -m "My first king"
+  218  git config --global user.name "Andranik"
+  219  git config --global user.email "ando.avagyan.2015@gmail.com"
+  220  git commit -m "My first message"
+  221  pwd
+  222  cd ~
+  223  ls -latr
+  224  mkdir cs149
+  225  cd sc149
+  226  cd cs149
+  227  git init
+  228  git remote add origin https://github.com/andavag/cs.git
+  229  git config --global user.email "ando.avagyan.2015@gmail.com"
+  230  git config --global user.name "Andranik Avagyan"
+  231  mkdir WS_bonus
+  232  cd WS_bonus
+  233  git add .
+  234  wget -O out.pdf https://tinyurl.com/yy94jltt
+  235  ls -latr
+  236  history > cmds.log
+  237  git add cmds.log *.c
+  238  git commit -m "First commit" -a
+  239  git branch
+  240  git push -u origin main
+  241  git branch -M main
+  242  git push -u origin main
+  243  cd ~
+  244  cd cs149
+  245  cd WS_bonus
+  246  git add .
+  247  ls -latr
+  248  history > cmds.log
+  249  git add cmds.log *.c
+  250  git commit -m "First commit" -a
+  251  git branch
+  252  git push -u origin main
+  253  nano WS_bonus/cmds.log
+  254  history > WS_bonus/cmds.log
+  255  history > cmds.log
