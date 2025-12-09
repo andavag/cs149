@@ -1,0 +1,73 @@
+  208  cd CS149
+  209  mkdir WB
+  210  cd WB
+  211  git init
+  212  touch newfile.txt
+  213  ls
+  214  git status
+  215  git add newfile.txt
+  216  git status
+  217  git commit -m "My first king"
+  218  git config --global user.name "Andranik"
+  219  git config --global user.email "ando.avagyan.2015@gmail.com"
+  220  git commit -m "My first message"
+  221  pwd
+  222  cd ~
+  223  ls -latr
+  224  mkdir cs149
+  225  cd sc149
+  226  cd cs149
+  227  git init
+  228  git remote add origin https://github.com/andavag/cs.git
+  229  git config --global user.email "ando.avagyan.2015@gmail.com"
+  230  git config --global user.name "Andranik Avagyan"
+  231  mkdir WS_bonus
+  232  cd WS_bonus
+  233  git add .
+  234  wget -O out.pdf https://tinyurl.com/yy94jltt
+  235  ls -latr
+  236  history > cmds.log
+  237  git add cmds.log *.c
+  238  git commit -m "First commit" -a
+  239  git branch
+  240  git push -u origin main
+  241  git branch -M main
+  242  git push -u origin main
+  243  cd ~
+  244  cd cs149
+  245  cd WS_bonus
+  246  git add .
+  247  ls -latr
+  248  history > cmds.log
+  249  git add cmds.log *.c
+  250  git commit -m "First commit" -a
+  251  git branch
+  252  git push -u origin main
+  253  nano WS_bonus/cmds.log
+  254  history > WS_bonus/cmds.log
+  255  history > cmds.log
+  256  nano cmds.log
+  257  git add cmds.log
+  258  git commit --amend --no-edit
+  259  git push -u origin main
+  260  cd ~
+  261  git clone git://g.csail.mit.edu/xv6-labs-2023
+  262  cd xv6-labs-2023
+  263  git commit -am 'my solution for util lab exercise 1'
+  264  make qemu
+  265  sudo apt-get update
+  266  sudo apt-get install git build-essential gdb-multiarch qemu-system-misc gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu
+  267  make qemu
+  268  cd user
+  269  nano sleep.c
+  270  make qemu
+  271  cd ..
+  272  make qemu
+  273  nano sleep.c
+  274  ls
+  275  nano Makefile
+  276  make clean
+  277  make qemu
+  278  ./grade-lab-util sleep
+  279  make GRADEFLAGS=sleep grade
+  280  history > worksheet1.log
